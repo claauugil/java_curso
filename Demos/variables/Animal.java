@@ -6,7 +6,7 @@ public class Animal {
         byte maxAge =  30;
         System.out.println("""
                 El animal del ejercicio es un: %s
-                Los %ss pesan aproximadamente %.2f kk
+                Los %ss pesan aproximadamente %.2f kg
                 La población de ellos es de alrededor de %d en total
                 Por lo general viven un máximo de %d años
                 """.formatted(name, name, weight, population, maxAge));
