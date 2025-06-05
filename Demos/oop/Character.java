@@ -1,7 +1,7 @@
 public class Character {
-    String name;
-    int    lifePoints = 100;
-    char   type;
+    String    name;
+    int       lifePoints = 100;
+    char      type;
     boolean   isZombie = false;
 
     Character(String givenName, char type)
