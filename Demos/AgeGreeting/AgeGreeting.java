@@ -7,11 +7,13 @@ public class AgeGreeting {
             return;
         }
         int number = Integer.valueOf(args[0]);
+        if (number <= 0)
+            return;
         if (number < 18)
             System.out.printf("Eres menor\n");
-        else if (number >= 18 && number <= 33)
+        else if (number <= 33)
             System.out.printf("Eres joven\n");
-        else if (number >= 34 && number <= 65)
+        else if (number <= 65)
             System.out.printf("Eres adulto\n");
         else
             System.out.printf("Eres jubilado\n");
