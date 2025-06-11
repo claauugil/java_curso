@@ -13,7 +13,7 @@ public class AgeGreeting {
             System.out.printf("Eres joven\n");
         else if (number >= 34 && number <= 65)
             System.out.printf("Eres adulto\n");
-        else if (number > 65)
+        else
             System.out.printf("Eres jubilado\n");
     }
 }
