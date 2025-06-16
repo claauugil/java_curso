@@ -1,9 +1,22 @@
 package Demos.palindromos;
 
+import java.util.Scanner;
+
 import Demos.reverse.Reverse;
 
 public class Palindrome {
     
+
+    
+    static String getPhrase()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Ingresa una frase para ver si e sun palindromo:\n");
+        String str = scanner.nextLine();
+        scanner.close();
+        return str;
+    }
+
     static String removeSpace(String str)
     {
         int i = 0;
@@ -30,7 +43,7 @@ public class Palindrome {
 
     public static void main(String[] args) {
     
-        String str = "Anita lava la tina";
+        String str = getPhrase();
         String lower = str.toLowerCase();
         String noSpace = removeSpace(lower);
         String reversed = Reverse.reverseString(noSpace);
