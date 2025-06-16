@@ -26,12 +26,12 @@ public class CarType {
         String msg;
         msg = """
                 *************************
-                Número de asientos: %d
-                Color: %s
-                Número de puertas: %d
-                Marca: %s
-                Es automático: %b
-                Tipo: %c
+                Número de asientos: %d  *
+                Color: %s               *            
+                Número de puertas: %d   *
+                Marca: %s               *
+                Es automático: %b       *
+                Tipo: %c                *
                 *************************
                 """;
         System.out.println(msg.formatted(numberOfSeats,
