@@ -52,4 +52,3 @@ public class Palindrome {
         System.out.printf("la frase es un palindromo: %b", isPalindrome);
     }
 }
- 
